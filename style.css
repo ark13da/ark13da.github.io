@@ -18,6 +18,7 @@ html{
 }
 
 body{
+    width: 100%;
     background-color: #FEFAEF;
     font-family: 'Roboto', sans-serif; 
     color: var(--graphit);
@@ -210,14 +211,15 @@ header{
     color:var(--brownBack);
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 input, textarea{
     display:block;
     line-height: 2rem;
+    padding:.5rem;
     margin-top:4%;
-    width: 100%;
-    padding: 2%;
+    width: 85%;
     border-radius: 5px;
     border: none;
 
